@@ -1,0 +1,278 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="YachtsPage.Master.cs" Inherits="Yacht.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>TtayanaWorld (DEMO)</title>
+    <script type="text/javascript" src="Yatchassets/html/Scripts/jquery.min.js"></script>
+    <!--[if lt IE 7]>
+    <script type="text/javascript" src="javascript/iepngfix_tilebg.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link href="Yatchassets/css/homestyle.css" rel="stylesheet" type="text/css" />
+    <link href="Yatchassets/css/reset.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript">
+        $(function () {
+            $('.topbuttom').click(function () {
+                $('html, body').scrollTop(0);
+            });
+        });
+    </script>
+    <link rel="stylesheet" type="text/css" href="Yatchassets/css/jquery.ad-gallery.css" />
+    <style type="text/css">
+        img,
+        div,
+        input {
+            behavior: url("");
+        }
+    </style>
+    <script type="text/javascript" src="Yatchassets/html/Scripts/jquery.ad-gallery.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var galleries = $('.ad-gallery').adGallery();
+            galleries[0].settings.effect = 'fade';
+            if ($('.banner1 input[type=hidden]').val() == "0") {
+                $(".bannermasks").hide();
+                $(".banner1").hide();
+                $("#crumb1").css("top", "125px");
+            }
+        });
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="contain">
+            <div class="sub">
+                <p><a href="Index.aspx">Home</a></p>
+            </div>
+
+            <!--------------------------------選單開始---------------------------------------------------->
+            <%--           <div class="menu">
+                <ul>
+                    <li class="menuli01">
+                        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="Yachts.aspx">Yachts</asp:HyperLink></li>
+                    <li class="menuli02"><a href="News.aspx">NEWS</a></li>
+                    <li class="menuli03"><a href="AboutUs.aspx">COMPANY</a></li>
+                    <li class="menuli04"><a href="Dealers.aspx">DEALERS</a></li>
+                    <li class="menuli05"><a href="Contect.aspx">CONTACT</a></li>
+                </ul>
+            </div>--%>
+     <%--       <div class="menu">
+                <ul>
+                    <li class="menuli01"><a href="Yachts.aspx">Yachts</a></li>
+                    <li class="menuli02"><a href="News.aspx">NEWS</a></li>
+                    <li class="menuli03"><a href="AboutUs.aspx">COMPANY</a></li>
+                    <li class="menuli04"><a href="Dealers.aspx">DEALERS</a></li>
+                    <li class="menuli05"><a href="Contect.aspx">CONTACT</a></li>
+                </ul>
+            </div>--%>
+                        <div class="menu">
+                <ul>
+                    <li class="menuli01"><a href="Yachts.aspx">
+                        <img src="Yatchassets/images/mmmmeeeee.gif" alt="&quot;&quot;" />Yachts</a></li>
+                    <li class="menuli02"><a href="News.aspx">
+                        <img src="Yatchassets/images/mmmmeeeee.gif" alt="&quot;&quot;" />NEWS</a></li>
+                    <li class="menuli03"><a href="AboutUs.aspx">
+                        <img src="Yatchassets/images/mmmmeeeee.gif" alt="&quot;&quot;" />COMPANY</a></li>
+                    <li class="menuli04"><a href="Dealers.aspx">
+                        <img src="Yatchassets/images/mmmmeeeee.gif" alt="&quot;&quot;" />DEALERS</a></li>
+                    <li class="menuli05"><a href="Contect.aspx">
+                        <img src="Yatchassets/images/mmmmeeeee.gif" alt="&quot;&quot;" />CONTACT</a></li>
+                </ul>
+            </div>
+            <!--------------------------------選單開始結束---------------------------------------------------->
+
+          <%--  <!--遮罩-->
+            <div class="bannermasks">
+                <img src="Yatchassets/images/banner01_masks.png" alt="&quot;&quot;" />
+            </div>
+            <!--遮罩結束-->
+
+            <div id="buttom01">
+                <a href="#">
+                    <img src="Yatchassets/images/buttom01.gif" alt="next" /></a>
+            </div>--%>
+
+            <!--小圖開始-->
+            <div class="bannerimg">
+                <ul>
+                    <li><a href="#">
+                        <div class="on">
+                            <p class="bannerimg_p">
+                                <img src="Yatchassets/images/pit001.jpg" alt="&quot;&quot;" />
+                            </p>
+                        </div>
+                    </a></li>
+                    <li><a href="#">
+                        <p class="bannerimg_p">
+                            <img src="Yatchassets/images/pit002.jpg" alt="&quot;&quot;" width="300" />
+                        </p>
+                    </a></li>
+                    <li><a href="#">
+                        <p class="bannerimg_p">
+                            <img src="Yatchassets/images/pit003.jpg" alt="&quot;&quot;" />
+                        </p>
+                    </a></li>
+                    <li><a href="#">
+                        <p class="bannerimg_p">
+                            <img src="Yatchassets/images/pit004.jpg" alt="&quot;&quot;" />
+                        </p>
+                    </a></li>
+                    <li><a href="#">
+                        <p class="bannerimg_p">
+                            <img src="Yatchassets/images/pit005.jpg" alt="&quot;&quot;" />
+                        </p>
+                    </a></li>
+                    <li><a href="#">
+                        <p class="bannerimg_p">
+                            <img src="Yatchassets/images/pit006.jpg" alt="&quot;&quot;" />
+                        </p>
+                    </a></li>
+                    <li><a href="#">
+                        <p class="bannerimg_p">
+                            <img src="Yatchassets/images/pit007.jpg" alt="&quot;&quot;" />
+                        </p>
+                    </a></li>
+                    <li><a href="#">
+                        <p class="bannerimg_p">
+                            <img src="Yatchassets/images/pit008.jpg" alt="&quot;&quot;" />
+                        </p>
+                    </a></li>
+                </ul>
+
+                <ul>
+                    <li><a class="on" href="#">
+                        <p class="bannerimg_p">
+                            <img src="Yatchassets/images/pit009.jpg" alt="&quot;&quot;" />
+                        </p>
+                    </a></li>
+                    <li>
+                        <p class="bannerimg_p">
+                            <a href="#">
+                                <img src="Yatchassets/images/pit010.jpg" alt="&quot;&quot;" />
+                        </p>
+                    </li>
+                    <li><a href="#">
+                        <p class="bannerimg_p">
+                            <img src="Yatchassets/images/pit003.jpg" alt="&quot;&quot;" />
+                        </p>
+                    </a></li>
+                    <li><a href="#">
+                        <p class="bannerimg_p">
+                            <img src="Yatchassets/images/pit003.jpg" alt="&quot;&quot;" />
+                        </p>
+                    </a></li>
+                    <li><a href="#">
+                        <p class="bannerimg_p">
+                            <img src="Yatchassets/images/pit003.jpg" alt="&quot;&quot;" />
+                        </p>
+                    </a></li>
+                    <li><a href="#">
+                        <p class="bannerimg_p">
+                            <img src="Yatchassets/images/pit003.jpg" alt="&quot;&quot;" />
+                        </p>
+                    </a></li>
+                    <li><a href="#">
+                        <p class="bannerimg_p">
+                            <img src="Yatchassets/images/pit003.jpg" alt="&quot;&quot;" />
+                        </p>
+                    </a></li>
+                    <li><a href="#">
+                        <p class="bannerimg_p">
+                            <img src="Yatchassets/images/pit003.jpg" alt="&quot;&quot;" />
+                        </p>
+                    </a></li>
+                </ul>
+
+
+            </div>
+            <!--小圖結束-->
+
+
+            <div id="buttom02">
+                <a href="#">
+                    <img src="Yatchassets/images/buttom02.gif" alt="next" /></a>
+            </div>
+
+            <!--------------------------------換圖開始---------------------------------------------------->
+
+            <div class="banner">
+                <ul>
+                    <li>
+                        <img src="Yatchassets/images/test002.jpg" /></li>
+                    <li>
+                        <img src="Yatchassets/images/test002.jpg" /></li>
+                    <li>
+                        <img src="Yatchassets/images/test002.jpg" /></li>
+                    <li>
+                        <img src="Yatchassets/images/test002.jpg" /></li>
+                    <li>
+                        <img src="Yatchassets/images/test002.jpg" /></li>
+                    <li>
+                        <img src="Yatchassets/images/test002.jpg" /></li>
+                </ul>
+
+            </div>
+            <!--------------------------------換圖結束---------------------------------------------------->
+
+
+
+
+            <div class="conbg">
+                <!--------------------------------左邊選單開始---------------------------------------------------->
+                <div class="left">
+                    <div class="left1">
+                        <p><span>Yachts</span></p>
+                        <ul>
+                            <asp:Literal ID="LeftMenu" runat="server"></asp:Literal>
+                        </ul>
+                    </div>
+                </div>
+
+
+
+
+
+
+                <!--------------------------------左邊選單結束---------------------------------------------------->
+
+                <!--------------------------------右邊選單開始---------------------------------------------------->
+                <div id="crumb"><a href="#">Home</a> >> <a href="#">Yachts</a> >> <a href="#"><span class="on1">Dynasty 72</span></a></div>
+                <div class="right">
+                    <div class="right1">
+                        <div class="title"><span>Dynasty 72</span></div>
+
+                        <!--------------------------------內容開始---------------------------------------------------->
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+
+
+
+
+                        <!--------------------------------內容結束------------------------------------------------------>
+                    </div>
+                </div>
+
+                <!--------------------------------右邊選單結束---------------------------------------------------->
+            </div>
+
+
+            <!--------------------------------落款開始---------------------------------------------------->
+            <div class="footer">
+                <p class="footerp01">© 1973-2011 Tayana Yachts, Inc. All Rights Reserved</p>
+                <div class="footer01">
+                    <span>No. 60, Hai Chien Road, Chung Men Li, Lin Yuan District, Kaohsiung City, Taiwan, R.O.C.</span><br />
+                    <span>TEL：+886(7)641-2721</span> <span>FAX：+886(7)642-3193</span><span><a href="mailto:tayangco@ms15.hinet.net">E-mail：tayangco@ms15.hinet.net</a>.</span>
+                </div>
+            </div>
+            <!--------------------------------落款結束---------------------------------------------------->
+
+        </div>
+    </form>
+</body>
+
+</html>
