@@ -1,7 +1,8 @@
-![YCONNECT](https://hackmd.io/_uploads/S1BkecvbA.png)
-![YHOME2](https://hackmd.io/_uploads/r1SgW5PWC.jpg)
-![YINDEX2](https://hackmd.io/_uploads/rJPm-5wbC.jpg)
-![yachts2](https://hackmd.io/_uploads/SkyZb9PWC.jpg)
+![YCONNECT](images/YCONNECT.png)
+![YHOME2](images/YHOME2.jpg)
+![YINDEX2](images/YINDEX2.jpg)
+![yachts2](images/yachts2.jpg)
+
 
 
 【獨立專案】
