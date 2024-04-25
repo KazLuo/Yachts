@@ -1,9 +1,5 @@
-![YCONNECT](img/YCONNECT.png)
-![YHOME2](img/YHOME2.jpg)
-![YINDEX2](img/YINDEX2.jpg)
-![yachts2](img/yachts2.jpg)
 
-
+<img src="img/yachts2.jpg" width="60%" alt="yachts2">
 
 【獨立專案】
 
@@ -36,3 +32,11 @@
 * MSSQL：建立資料庫及資料表關聯性
 * Jquery：產生網頁前端輪播圖效果
 * Bootstrap :套用並規劃後台版型
+
+
+＊ 首頁：
+<img src="img/YHOME2.jpg" width="60%" alt="YHOME2">
+＊ 關於我-後台介面：
+<img src="img/YCONNECT.png" width="60%" alt="YCONNECT">
+遊艇規格介紹：
+<img src="img/YINDEX2.jpg" width="60%" alt="YINDEX2">
