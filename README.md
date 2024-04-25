@@ -49,17 +49,19 @@
 ∂
 
 ＊ 首頁：
-
-<img src="img/YHOME2.jpg" width="60%" alt="YHOME2">
-
+<p align="center">
+ <img src="img/YHOME2.jpg" width="60%" alt="YHOME2">
+</p>
 ＊ 關於我-後台介面：
-
-<img src="img/YCONNECT.png" width="60%" alt="YCONNECT">
-
+<p align="center">
+ <img src="img/YCONNECT.png" width="60%" alt="YCONNECT">
+</p>
 * 遊艇規格介紹：
-
-<img src="img/YINDEX.png" width="60%" alt="YINDEX">
-
+<p align="center">
+ <img src="img/YINDEX.png" width="60%" alt="YINDEX">
+</p>
 * 遊艇修改頁面：
+  <p align="center">
+   <img src="img/Ymanage.PNG" width="60%" alt="YINDEX">
+  </p>
   
-<img src="img/Ymanage.PNG" width="60%" alt="YINDEX">
