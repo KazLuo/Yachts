@@ -11,11 +11,9 @@
 
 <br>
 <br>
-
-
-
-
-<img src="img/yachts2.jpg" width="60%" alt="yachts2">
+<p align="center">
+ <img src="img/yachts2.jpg" width="60%" alt="yachts2">
+</p>
 
 【獨立專案】
 
