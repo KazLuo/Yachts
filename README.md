@@ -59,4 +59,4 @@
   <p align="center">
    <img src="img/Ymanage.PNG" width="60%" alt="YINDEX">
   </p>
-  ---
+
