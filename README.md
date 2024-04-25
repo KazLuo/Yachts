@@ -1,18 +1,9 @@
 
 
 <h1 align="center">TAYANA Yacht ｜後台管理系統</h1>
-
-
-
-<p>
-</p>
-
-<br>
-<br>
 <p align="center">
  <img src="img/yachts2.jpg" width="60%" alt="yachts2">
 </p>
-
 ---
 
 【獨立專案】
