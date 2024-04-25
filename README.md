@@ -58,8 +58,8 @@
 
 * 遊艇規格介紹：
 
-<img src="img/YINDEX.PNG" width="60%" alt="YINDEX">
+<img src="img/YINDEX.png" width="60%" alt="YINDEX">
 
 * 遊艇修改頁面：
-* 
+  
 <img src="img/Ymanage.PNG" width="60%" alt="YINDEX">
