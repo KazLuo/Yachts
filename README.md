@@ -14,7 +14,7 @@
 <p align="center">
  <img src="img/yachts2.jpg" width="60%" alt="yachts2">
 </p>
-
+---
 【獨立專案】
 
 遊艇後台專案主要負責後端以及後台系統開發，後台需具備完整CRUD及管理功能
@@ -47,6 +47,8 @@
 * Jquery：產生網頁前端輪播圖效果
 * Bootstrap :套用並規劃後台版型
 ∂
+---
+## 專案截圖：
 
 ＊ 首頁：
 <p align="center">
@@ -64,4 +66,4 @@
   <p align="center">
    <img src="img/Ymanage.PNG" width="60%" alt="YINDEX">
   </p>
-  
+  ---
