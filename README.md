@@ -1,6 +1,6 @@
 
 
-<h1 align="center">揪遊 JoinJoy ｜桌遊揪團平台</h1>
+<h1 align="center">TAYANA Yachtz ｜後台管理系統</h1>
 
 <div align="center" style="margin-bottom:24px">
  
@@ -46,7 +46,7 @@
 * MSSQL：建立資料庫及資料表關聯性
 * Jquery：產生網頁前端輪播圖效果
 * Bootstrap :套用並規劃後台版型
-
+∂
 
 ＊ 首頁：
 
@@ -56,6 +56,10 @@
 
 <img src="img/YCONNECT.png" width="60%" alt="YCONNECT">
 
-遊艇規格介紹：
+* 遊艇規格介紹：
 
-<img src="img/YINDEX.jpg" width="60%" alt="YINDEX">
+<img src="img/YINDEX.PNG" width="60%" alt="YINDEX">
+
+* 遊艇修改頁面：
+* 
+<img src="img/Ymanage.PNG" width="60%" alt="YINDEX">
