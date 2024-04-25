@@ -35,8 +35,13 @@
 
 
 ＊ 首頁：
+
 <img src="img/YHOME2.jpg" width="60%" alt="YHOME2">
+
 ＊ 關於我-後台介面：
+
 <img src="img/YCONNECT.png" width="60%" alt="YCONNECT">
+
 遊艇規格介紹：
+
 <img src="img/YINDEX2.jpg" width="60%" alt="YINDEX2">
