@@ -4,6 +4,7 @@
 <p align="center">
  <img src="img/yachts2.jpg" width="60%" alt="yachts2">
 </p>
+
 ---
 
 【獨立專案】
@@ -37,8 +38,9 @@
 * MSSQL：建立資料庫及資料表關聯性
 * Jquery：產生網頁前端輪播圖效果
 * Bootstrap :套用並規劃後台版型
-∂
+
 ---
+
 ## 專案截圖：
 
 ＊ 首頁：
