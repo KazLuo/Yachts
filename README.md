@@ -44,4 +44,4 @@
 
 遊艇規格介紹：
 
-<img src="img/YINDEX2.jpg" width="60%" alt="YINDEX2">
+<img src="img/YINDEX.jpg" width="60%" alt="YINDEX">
