@@ -1,7 +1,7 @@
-![YCONNECT](images/YCONNECT.png)
-![YHOME2](images/YHOME2.jpg)
-![YINDEX2](images/YINDEX2.jpg)
-![yachts2](images/yachts2.jpg)
+![YCONNECT](img/YCONNECT.png)
+![YHOME2](img/YHOME2.jpg)
+![YINDEX2](img/YINDEX2.jpg)
+![yachts2](img/yachts2.jpg)
 
 
 
